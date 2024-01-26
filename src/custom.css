@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  ::-webkit-scrollbar {
+    width: 0.25rem !important;
+    height: 0.25rem !important;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0, 0) !important;
+    border-radius: 10px !important;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 175, 255) !important;
+    border-radius: 10px !important;
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.shadow-custom {
+  box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.10);
+}
+
+.sweetAlert-popup {
+  background-color: #fff !important;
+  border-radius: 1.5rem;
+  width: 24em;
+  font-size: 14px;
+}
+
+.dark .sweetAlert-popup {
+  background-color: #222 !important;
+  color: white !important;
+  border-radius: 1.5rem;
+  width: 24em;
+  font-size: 14px;
+}
+.sweetAlert-closeButton {
+  border-radius: 0.5rem !important;
+  padding: 2px 2em !important;
+}
+.sweetAlert-confirmButton {
+  border-radius: 0.5rem !important;
+  padding: 2px 2em !important;
+  background: linear-gradient(rgb(63, 142, 215), rgb(40, 89, 135)) !important;
+}
+.sweetAlert-confirmButton:hover {
+  border-radius: 0.5rem !important;
+  padding: 2px 2em !important;
+  background: linear-gradient(rgb(56, 126, 191), rgb(31, 69, 105)) !important;
+}
+.sweetConfirm-confirmButton {
+  border-radius: 0.5rem !important;
+  padding: 2px 2em !important;
+  background: linear-gradient(rgb(215, 63, 63), rgb(135, 40, 40)) !important;
+}
+.sweetConfirm-confirmButton:hover {
+  border-radius: 0.5rem !important;
+  padding: 2px 2em !important;
+  background: linear-gradient(rgb(182, 53, 53), rgb(99, 29, 29)) !important;
+}
+.sweetAlert-cancelButton {
+  border-radius: 0.5rem !important;
+  padding: 2px 2em !important;
+  background: linear-gradient(rgb(75, 75, 75), rgb(50, 50, 50)) !important;
+}
+.sweetAlert-cancelButton:hover {
+  border-radius: 0.5rem !important;
+  padding: 2px 2em !important;
+  background: linear-gradient(rgb(60, 60, 60), rgb(35, 35, 35)) !important;
+}
